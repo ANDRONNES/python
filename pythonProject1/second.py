@@ -1,18 +1,3 @@
-from os import cpu_count
-
-print(bool(0))
-print(bool(12321))
-print(bool(""))
-print(bool("-"))
-print(bool({}))
-print("""""")
-print("a " * 2)
-print(len("a ") * 2)
-
-mylist = [1,2,3,4,5]
-print(mylist[2:])
-print(mylist[:])
-print(mylist[:3]) #[)
 
 scores = {"Ania" : [101, 75, 33],
                  "Kasia" :[76, 55, 12],
@@ -28,6 +13,7 @@ print (scores)
 avg = 0
 average_score = dict()
 for key, value in scores.items():
+    avg = 0
     for val in value:
         avg += val
     avg/=len(value)
