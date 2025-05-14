@@ -66,7 +66,7 @@ class Wielokat:
 class Kwadrat(Wielokat):
     def __init__(self,a):
         super().__init__(1)
-    def
+    # def
 
 
 class Trojkat(Wielokat):
